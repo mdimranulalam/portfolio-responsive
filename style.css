@@ -1,0 +1,98 @@
+/* --------------------------------------
++++++++++++++  Google Fonts +++++++++++++
+--------------------------------------- */
+/* PT Serif */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+
+
+/* --------------------------------------
+++++++++++++++  Common CSS ++++++++++++++
+--------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.fix{
+    overflow: hidden;
+}
+
+
+/* --------------------------------------
+++++++++++++++  Header CSS ++++++++++++++
+--------------------------------------- */
+.header-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 50px 200px;
+}
+
+/* Header Logo Style */
+.header-title{
+    font-size: 32px;
+    letter-spacing: 9px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "PT Serif";
+    filter: drop-shadow(-0.696px 4.951px 2.5px rgba(21,21,21,0.16));
+}
+
+/* Nav Styles */
+.header-nav{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding-right: 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 70px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.nav-list li:hover a{
+    color: #1769ff;
+    transition: 0.3s all ease-in-out;
+}
+
+/* Header Button */
+.header-btn{
+    /* Button Design */
+    width: 151px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: rgba(255,82,83,0);
+    border: 2px solid #1769ff;
+    padding: 8px 14px;
+
+    /* text design */
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 70px;
+    color: #1769ff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.header-btn:hover{
+    background-color: #1769ff;
+    color: #FFF;
+    transition: 0.3s all ease-in-out;
+}
