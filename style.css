@@ -9,7 +9,6 @@
 
 /* Raleway */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
-/* font-family: 'Raleway', sans-serif; */
 
 
 
@@ -160,9 +159,10 @@
     font-family: "Poppins";
 }
 .section-1-btn:hover{
-    background-color: #173b67;
+    /* background-color: #173b67; */
     color: #ffffff;
     transition: 0.3s all ease-in-out;
+    opacity: 0.8;
 }
 
 /* --------------------------------------
@@ -171,7 +171,7 @@
 .section-2{
     margin-bottom: 100px;
 }
-.section-2-title{
+.section-2-title, .section-3-title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@
     color: #eeeeee;
     font-family: "Poppins";
 }
-.section-2-main-title{
+.section-2-main-title, .section-3-main-title{
     font-size: 32px;
     letter-spacing: 9px;
     line-height: 70px;
@@ -213,7 +213,7 @@
     filter: drop-shadow(-0.696px 4.951px 8px rgba(23,105,255,0.2));;
     box-shadow: 2px 2px 10px #ddd;
     border-radius: 5px;
-    transition: 0.2s all ease-in-out;
+    /* transition: 0.2s all ease-in-out; */
 }
 .service-item-logo{
     text-align: center;
@@ -234,6 +234,7 @@
     text-align: center;
     padding-bottom: 23px;
 }
+
 .service-item-line-brk{
     width: 41px;
     height: 2px;
@@ -242,6 +243,7 @@
     margin:auto;
     margin-bottom: 34px;
 }
+
 .service-item-details{
     font-size: 15px;
     letter-spacing: 0px;
@@ -256,6 +258,9 @@
     filter: drop-shadow(-4.593px 32.679px 35px rgba(0,0,0,0.16));
     background-color: #1769ff;
 }
+.card-highlight:hover{
+    opacity: 0.9;
+}
 
 .card-highlight .fa-gem{
     color: #ffffff;
@@ -268,4 +273,122 @@
 }
 .card-highlight .service-item-details{
     color: #d8ffec;
+}
+
+
+/* --------------------------------------
++++++++++++  Section-3 CSS +++++++++++++
+--------------------------------------- */
+.section-3{
+    padding-bottom: 100px;
+    background-color: #f4f4f4;
+}
+/* Section 3 tilte css added with section 2 css */
+
+.section-3-images{
+    display: flex;
+    justify-content: center;
+}
+.img-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.img-items img{
+    width: 400px;
+    height: 400px;
+}
+.img-items img:hover{
+    opacity: 0.7;
+    transition: 0.2s all ease-in-out;
+}
+
+/* image-card style */
+
+.card-img-item{
+    width: 400px;
+    height: 400px;
+    background-color: #1769ff;
+    border-radius: 0px 0px 100px 0px;
+}
+.card-img-item:hover{
+    opacity: 0.7;
+    transition: 0.2s all ease-in-out;
+}
+
+.card-img-item-title-1{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+
+}
+.card-img-item-title-2{
+    font-size: 24px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* --------------------------------------
++++++++++++  Section-4 CSS +++++++++++++
+--------------------------------------- */
+
+.section-4-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.section-4-details{
+    width: 800px;
+}
+.section-4-title h2{
+    font-size: 34px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Poppins";
+    padding-bottom: 20px;
+}
+.section-4-description{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #777777;
+    font-family: "Raleway";
+}
+
+/* section 4 button */
+.section-4-btn{
+    /* Button Design */
+    width: 151px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: rgba(255,82,83,0);
+    border: 2px solid #1769ff;
+    padding: 8px 14px;
+
+    /* text design */
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 70px;
+    color: #1769ff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.section-4-btn:hover{
+    background-color: #1769ff;
+    color: #FFF;
+    transition: 0.3s all ease-in-out;
 }
