@@ -456,3 +456,28 @@
     text-align: center;
     padding-bottom: 170px;
 }
+
+/* --------------------------------------
++++++++++++++++  Footer +++++++++++++++++
+--------------------------------------- */
+.footer-bg {
+    width: 100%;
+}
+.footer-items{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.footer-nav-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer Nav */
+.footer-nav-ul{
+    /* display: flex; */
+}
+.footer-nav ul li{
+    list-style: none;
+}
