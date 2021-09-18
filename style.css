@@ -148,8 +148,7 @@
     border: none;
     cursor: pointer;
     margin-top: 43px;
-}
-.section-1-btn a{
+
     text-decoration: none;
     font-size: 16px;
     letter-spacing: 0px;
@@ -158,6 +157,15 @@
     font-weight: 600;
     font-family: "Poppins";
 }
+/* .section-1-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+} */
 .section-1-btn:hover{
     /* background-color: #173b67; */
     color: #ffffff;
