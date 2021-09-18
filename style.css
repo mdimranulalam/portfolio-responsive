@@ -276,6 +276,71 @@
 }
 
 
+
+
+@media only screen and (max-width: 688px){
+    /* Header Responsive */
+    .header-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .header-title{
+        font-size: 25px;
+        letter-spacing: 9px;
+        color: #000000;
+        font-weight: 700;
+        font-family: "PT Serif";
+        filter: drop-shadow(-0.696px 4.951px 2.5px rgba(21,21,21,0.16));
+
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+
+    /* Section-1 Responsive */
+    .section-1-bg{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .section-1-image img{
+        width: 360px;
+    }
+
+    .section-1-details{
+        width: 100%;
+        padding: 50px 20px;
+        background-color: #f4f4f4;
+    }
+    .section-1-title-1{
+        font-size: 30px;
+        letter-spacing: 2px;
+        padding-bottom: 25px;
+    }
+    .section-1-title-2{
+        font-size: 36px;
+        letter-spacing: 0px;
+        line-height: 45px;
+        padding-bottom: 35px;
+    }
+    .section-1-btn{
+        /* Button Design */
+        padding: 8px 28px;
+
+        /* Button Placeholder */
+        font-size: 15px;
+        
+    }
+}
+
+
 /* --------------------------------------
 +++++++++++  Section-3 CSS +++++++++++++
 --------------------------------------- */
@@ -581,4 +646,11 @@
 .copyright p a{
     color: #1769ff;
     text-decoration: none;
+}
+
+/* --------------------------------------
+++++++++++++  Media Queary ++++++++++++++
+--------------------------------------- */
+@media only screen and (max-width: 688px){
+
 }
