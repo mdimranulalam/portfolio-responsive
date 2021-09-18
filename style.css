@@ -464,20 +464,121 @@
     width: 100%;
 }
 .footer-items{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .footer-nav-search{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 /* Footer Nav */
 .footer-nav-ul{
-    /* display: flex; */
+    display: flex;
 }
 .footer-nav ul li{
     list-style: none;
+    padding-right: 30px;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+.footer-nav ul li:hover a{
+    color: #1769ff;
+    transition: 0.3s all ease-in-out;
+}
+
+/* Footer Search */
+.footer-search input{
+    width: 233px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: rgba(236,55,108,0);
+    border: 1px solid #9b9b9b;
+
+    /* Placeholder Text */
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #444444;
+    font-weight: 400;
+    font-family: "Poppins";
+    padding-left: 30px;
+}
+
+/* Footer Social Icons */
+.footer-social-icons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.social-icons{
+    display: flex;
+}
+.footer-social-icons ul li{
+    list-style: none;
+    padding-right: 30px;
+}
+.footer-social-icons ul li a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+
+    /* Fonts Style */
+    font-size: 20px;
+    line-height: 39px;
+    color: #a7a7a7;
+    font-family: "Font Awesome";
+}
+.footer-social-icons ul li:hover a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1769ff;
+
+    /* Fonts Style */
+    font-size: 20px;
+    line-height: 39px;
+    color: #ffffff;
+    font-family: "Font Awesome";
+    transition: 0.3s all ease-in-out;
+}
+
+/* Footer HR Line */
+.footer-hr{
+    width: 100%;
+    height: 1px;
+    filter: drop-shadow(-0.696px 4.951px 23px rgba(0,0,0,0.03));
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+/* Footer Copyright */
+.copyright{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.copyright p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.copyright p a{
+    color: #1769ff;
+    text-decoration: none;
 }
